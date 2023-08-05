@@ -1,0 +1,83 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Flexbox layout */
+    .container {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    
+    .header {
+      background-color: #333;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    
+    .nav {
+      background-color: #444;
+      padding: 10px;
+    }
+    
+    .nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .nav li {
+      margin: 0 15px;
+    }
+    
+    .nav a {
+      text-decoration: none;
+      color: white;
+    }
+    
+    .main {
+      flex: 1;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    
+    .product-card {
+      flex: 0 0 calc(33.33% - 20px);
+      margin: 10px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+    
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .sidebar {
+      background-color: #444;
+      padding: 20px;
+      color: white;
+    }
+    
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .sidebar li {
+      margin-bottom: 10px;
+    }
+    
+    .footer {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
